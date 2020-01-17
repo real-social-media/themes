@@ -4,7 +4,7 @@ Themes and related objects for the frontend.
 
 ## Initialization
 
-Run `npm init` in the root of the repository to install required packages.
+Run `npm install` in the root of the repository to install required packages.
 
 You will need to have access to the AWS environment you wish to deploy to. This is usually this is done by setting up the appropriate [AWS credentials file](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html).
 
