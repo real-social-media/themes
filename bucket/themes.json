@@ -5,6 +5,9 @@
     "theme": {
       "dark": false,
       "roundness": 2,
+      "animation": {
+        "scale": 1.0
+      },
       "colors": {
         "primary": "#21ce99",
         "accent": "#03dac4",
@@ -60,6 +63,9 @@
     "theme": {
       "dark": true,
       "roundness": 2,
+      "animation": {
+        "scale": 1.0
+      },
       "colors": {
         "primary": "#21ce99",
         "accent": "#03dac4",
@@ -115,6 +121,9 @@
     "theme": {
       "dark": false,
       "roundness": 2,
+      "animation": {
+        "scale": 1.0
+      },
       "colors": {
         "primary": "#DC3644",
         "accent": "#03dac4",
@@ -170,6 +179,9 @@
     "theme": {
       "dark": true,
       "roundness": 2,
+      "animation": {
+        "scale": 1.0
+      },
       "colors": {
         "primary": "#DC3644",
         "accent": "#03dac4",
@@ -225,6 +237,9 @@
     "theme": {
       "dark": true,
       "roundness": 2,
+      "animation": {
+        "scale": 1.0
+      },
       "colors": {
         "primary": "#DC3644",
         "accent": "#03dac4",
@@ -279,6 +294,9 @@
     "theme": {
       "dark": true,
       "roundness": 2,
+      "animation": {
+        "scale": 1.0
+      },
       "colors": {
         "primary": "#f39c12",
         "accent": "#03dac4",
@@ -333,6 +351,9 @@
     "theme": {
       "dark": true,
       "roundness": 2,
+      "animation": {
+        "scale": 1.0
+      },
       "colors": {
         "primary": "#f368e0",
         "accent": "#03dac4",
