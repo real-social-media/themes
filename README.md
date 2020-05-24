@@ -4,7 +4,7 @@ Themes and related objects for the frontend.
 
 ## Initialization
 
-Run `npm install` in the root of the repository to install required packages.
+Run `yarn install` in the root of the repository to install required packages.
 
 You will need to have access to the AWS environment you wish to deploy to. This is usually this is done by setting up the appropriate [AWS credentials file](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html).
 
@@ -12,9 +12,9 @@ You will need to have access to the AWS environment you wish to deploy to. This 
 
   - Make the changes you'd like to see to files in the `bucket` directory
   - Run `git commit` to save those changes to the repo history
-  - Run `sls deploy` to deploy those changes. Note that `--stage` defaults to **production** if unset.
+  - Run `yarn deploy` to deploy those changes. Note that `--stage` defaults to **production** if unset.
 
-A few important CloudFront urls will be printed to the console in the output of `sls deploy`.
+A few important CloudFront urls will be printed to the console in the output of `yarn deploy`.
 
 Note that:
   - a CloudFront invalidation for `themes.jsoon` is kicked off at the end of `sls deploy`, but the command does not wait for the invalidation to complete. Invalidations usually take 1-2 minutes to complete. Progress can be monitored via the AWS console.

@@ -1,6 +1,10 @@
 {
   "name": "real-themes",
   "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "serverless deploy"
+  },
   "devDependencies": {
     "chalk": "^2.4.2",
     "serverless": "^1.56.1",
