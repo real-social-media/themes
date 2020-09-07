@@ -4,7 +4,7 @@
     "label": "Green and White",
     "theme": {
       "dark": false,
-      "roundness": 2,
+      "roundness": 4,
       "animation": {
         "scale": 1.0
       },
@@ -62,7 +62,7 @@
     "label": "Green and Black",
     "theme": {
       "dark": true,
-      "roundness": 2,
+      "roundness": 4,
       "animation": {
         "scale": 1.0
       },
@@ -120,7 +120,7 @@
     "label": "Red and White",
     "theme": {
       "dark": false,
-      "roundness": 2,
+      "roundness": 4,
       "animation": {
         "scale": 1.0
       },
@@ -178,7 +178,7 @@
     "label": "Red and Black",
     "theme": {
       "dark": true,
-      "roundness": 2,
+      "roundness": 4,
       "animation": {
         "scale": 1.0
       },
@@ -236,7 +236,7 @@
     "label": "White and Black",
     "theme": {
       "dark": true,
-      "roundness": 2,
+      "roundness": 4,
       "animation": {
         "scale": 1.0
       },
@@ -293,7 +293,7 @@
     "label": "Orange and Black",
     "theme": {
       "dark": true,
-      "roundness": 2,
+      "roundness": 4,
       "animation": {
         "scale": 1.0
       },
@@ -350,7 +350,7 @@
     "label": "Pink and Black",
     "theme": {
       "dark": true,
-      "roundness": 2,
+      "roundness": 4,
       "animation": {
         "scale": 1.0
       },
