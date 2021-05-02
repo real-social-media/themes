@@ -33,11 +33,11 @@ custom:
               - '**/*'
 
   cloudfrontInvalidate:
-    distributionIdKey: CloudFrontThemesDistributionId
-    items:
-      - /themes.json
-      - /versions/beta.json
-      - /versions/production.json
+    - distributionIdKey: CloudFrontThemesDistributionId
+      items:
+        - /themes.json
+        - /versions/beta.json
+        - /versions/production.json
 
   output:
     handler: output.handler

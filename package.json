@@ -8,7 +8,7 @@
   "devDependencies": {
     "chalk": "^2.4.2",
     "serverless": "^1.56.1",
-    "serverless-cloudfront-invalidate": "git+https://github.com/mfogel/serverless-cloudfront-invalidate.git",
+    "serverless-cloudfront-invalidate": "^1.9.0",
     "serverless-plugin-git-variables": "^3.3.3",
     "serverless-pseudo-parameters": "^2.5.0",
     "serverless-s3-deploy": "^0.9.0",
