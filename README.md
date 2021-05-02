@@ -14,7 +14,7 @@ You will need to have access to the AWS environment you wish to deploy to. This 
   - Run `git commit` to save those changes to the repo history
   - Run `yarn deploy` to deploy those changes. Note that `--stage` defaults to **production** if unset.
 
-A few important CloudFront urls will be printed to the console in the output of `yarn deploy`.
+The cloudfront domain name and other important info are available as CloudFormation stack outputs. You can see those outputs in the [AWS console](https://console.aws.amazon.com/cloudformation) or by runing `yarn run sls info -v` from the command line.
 
 Note that:
   - a CloudFront invalidation for `themes.jsoon` is kicked off at the end of `sls deploy`, but the command does not wait for the invalidation to complete. Invalidations usually take 1-2 minutes to complete. Progress can be monitored via the AWS console.

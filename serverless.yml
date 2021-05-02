@@ -17,7 +17,6 @@ plugins:
   - serverless-s3-deploy
   - serverless-plugin-git-variables
   - serverless-cloudfront-invalidate
-  - serverless-stack-output
 
 custom:
 
@@ -33,14 +32,11 @@ custom:
               - '**/*'
 
   cloudfrontInvalidate:
-    distributionIdKey: CloudFrontThemesDistributionId
-    items:
-      - /themes.json
-      - /versions/beta.json
-      - /versions/production.json
-
-  output:
-    handler: output.handler
+    - distributionIdKey: CloudFrontThemesDistributionId
+      items:
+        - /themes.json
+        - /versions/beta.json
+        - /versions/production.json
 
 resources:
   Resources:
