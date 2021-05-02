@@ -4539,13 +4539,6 @@ serverless-s3-deploy@^0.9.0:
     glob-all "^3.1.0"
     mime-types "^2.1.18"
 
-"serverless-stack-output@git+https://github.com/mfogel/serverless-stack-output.git":
-  version "0.2.3"
-  resolved "git+https://github.com/mfogel/serverless-stack-output.git#71edbb9218ed826675a3d9c5d0621e2d0511ef5c"
-  dependencies:
-    tomlify-j0.4 "^2.0.0"
-    yamljs "^0.3.0"
-
 serverless@^1.56.1:
   version "1.71.3"
   resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.71.3.tgz#2aeed00b03a3c09de1ef14837a905445471d5c3d"
@@ -5175,11 +5168,6 @@ toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
-
-tomlify-j0.4@^2.0.0:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/tomlify-j0.4/-/tomlify-j0.4-2.2.1.tgz#60c4e7dd2066b2e917dd9a0de5fd676c0a6d7c7b"
-  integrity sha512-0kCocYX8ujnbK6jQ9e+g9GLiCIfVkFaCB3DCTQDP7J79gPVZVmZgQZ/KUNe1a6hUfrmHHaErVGUjedfpaX5EZw==
 
 tough-cookie@^2.3.3, tough-cookie@~2.5.0:
   version "2.5.0"
